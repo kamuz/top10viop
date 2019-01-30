@@ -1,0 +1,96 @@
+.comparison{
+    #header{
+        background: url(../img/bg-06.png) no-repeat;
+        background-size: cover;
+        background-position: right bottom;
+        padding-bottom: 300px;
+        #hero-text{
+            h1{
+                font-size: 50px;
+            }
+            p{
+                color: #fff;
+                font-size: 20px;
+            }
+        }
+    }
+}
+#comparison-table{
+    margin-top: -250px;
+    .uk-overflow-container{
+        &.shadow{
+            box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+            margin-bottom: 15px;
+            background-color: #fff;
+            padding: 0;
+        }
+        table{
+            thead{
+                tr {
+                    th{
+                        text-align: center;
+                        &:nth-child(even){
+                            background-color: #f8f8f8;
+                        }
+                        img{
+                            margin-top: 10px;
+                        }
+                        .price{
+                            margin: 20px 0 10px;
+                            font-size: 36px;
+                            font-family: $secondFont;
+                            sup{
+                                position: relative;
+                                top: -5px;
+                            }
+                        }
+                        .uk-button{
+                            height: 45px;
+                            line-height: 45px;
+                            font-weight: normal;
+                            font-size: 16px;
+                            padding: 0 20px;
+                            margin: 10px 0;
+                        }
+                    }
+                }
+            }
+            tbody{
+                tr{
+                    td{
+                        width: 13%;
+                        border-top: 1px solid #DEDEDE;
+                        &:nth-child(even){
+                            background-color: #f8f8f8;
+                        }
+                        &:first-child{
+                            width: 22%;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+            &.buttons{
+                margin-bottom: 30px;
+                tbody{
+                    tr{
+                        td{
+                            border-top: none;
+                            &:nth-child(even){
+                                background: none;
+                            }
+                            .uk-button{
+                                height: 45px;
+                                line-height: 45px;
+                                font-weight: normal;
+                                font-size: 16px;
+                                padding: 0 20px;
+                                margin: 10px 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

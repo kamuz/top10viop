@@ -1,0 +1,526 @@
+@media (max-width: 1220px){
+    #start-here{
+        .uk-nav.uk-nav-side{
+            margin: 0 0 50px;
+            li{
+                a{
+                    padding: 10px 15px;
+                    margin: 0 0 20px;
+                }
+            }
+        }
+    }
+    #you-can{
+        .icons-list{
+            width: 80%;
+            margin: 0 auto;
+            div.icon.icon-location{
+                left: -70px;
+            }
+            div.icon.icon-paper-plane{
+                right: -100px;
+            }
+        }
+    }
+    #blog-container{
+        .uk-container{
+            .uk-grid{
+                .uk-width-medium-1-2{
+                    &:nth-child(odd),
+                    &:nth-child(even){
+                        margin: 0 0 40px 0;
+                        .uk-panel{
+                            margin: 0;
+                        }
+                    }
+                    &:nth-child(odd):before{
+                        display: none;
+                    }
+                    &:nth-child(even) .uk-panel:before {
+                        display: none;
+                    }
+                    &:nth-child(odd) .uk-panel:before{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .blog{
+        #header{
+            padding-bottom: 140px;
+            margin-bottom: 30px;
+        }
+    }
+    .business{
+        #blog-container{
+            margin-top: 0;
+            .blog-posts{
+                margin-top: 50px;
+            }
+        }
+        #featured-research{
+            padding-top: 100px;
+            background-position: right top;
+            .uk-pagination{
+                margin-top: 50px !important;
+            }
+        }
+    }
+}
+@media (max-width: 960px){
+    #header{
+        padding-bottom: 100px;
+        #hero-text{
+            margin-top: 0;
+            h1{
+                font-size: 50px;
+                line-height: 1.3;
+            }
+        }
+    }
+    #services{
+        margin: 50px 0 30px;
+        .uk-width-small-1-2{
+            margin-bottom: 30px;
+        }
+    }
+    #talking-about{
+        .top-bg{
+            padding-top: 150px;
+        }
+        #table-view{
+            margin: -60px 20px 0;
+        }
+    }
+    #we-here{
+        .uk-panel.uk-panel-box{
+            a.uk-button-large{
+                padding: 16px 30px;
+            }
+        }
+    }
+    #footer{
+        .uk-navbar-toggle{
+            float: none;
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+    }
+    .business{
+        #talking-about{
+            #table-view{
+                .uk-panel{
+                    .uk-width-large-1-10.uk-width-small-1-2{
+                        border-left: 1px solid #ccc;
+                        margin-bottom: 20px;
+                    }
+                    .uk-width-large-2-10.uk-width-small-1-1{
+                           .uk-button{
+                            display: block;
+                            width: 100%;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contact{
+        .shadow{
+            padding: 30px;
+        }
+        #contact-form{
+            margin-bottom: 80px;
+            form{
+                padding: 0;
+            }
+        }
+    }
+    .privacy{
+        #header{
+            padding-bottom: 120px;
+        }
+        #accordion{
+            .accordion-wrap{
+                padding: 20px 30px;
+                .uk-accordion-title{
+                    font-size: 22px;
+                    line-height: 32px;
+                    &:before{
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px){
+    h2{
+        font-size: 35px;
+    }
+    #talking-about{
+        .top-bg{
+            padding-top: 120px;
+        }
+        #table-view{
+            padding: 30px 0 0;
+            .uk-panel{
+                padding: 0 0 0 30px;
+                text-align: center;
+                margin-bottom: 40px;
+                .uk-vertical-align:before{
+                    height: auto;
+                }
+                .read-full{
+                    color: #000;
+                    text-decoration: underline;
+                    font-size: 28px;
+                    font-weight: bold;
+                    margin: 30px 0 20px;
+                }
+                .uk-button.uk-visible-small{
+                    position: relative;
+                    width: calc(100% - 50px);
+                    &:before{
+                        content: "";
+                        position: absolute;
+                        left: -25px;
+                        top: 0;
+                        transform: skewX(140deg);
+                        height: 50px;
+                        width: 50px;
+                        background: #FFC20C;
+                        background-image: linear-gradient(#FFC20C, #F2B60A);
+                    }
+                    &:hover{
+                        background-image: linear-gradient(#FFC20C, #F2B60A) !important;
+                    }
+                }
+            }
+        }
+    }
+    #you-can{
+        margin-bottom: 50px;
+        .icons-list{
+            background: none;
+            .uk-width-medium-1-3{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                &:nth-child(2){
+                    flex-direction: row-reverse;
+                    >div{
+                        &:last-child{
+                            border: none;
+                            border-right: 1px solid #ccc;
+                        }
+                    }
+                }
+                >div{
+                    padding: 0 30px 50px;
+                    width: 50%;
+                    &:last-child{
+                        border-left: 1px solid #ccc;
+                    }
+                }
+            }
+            div.icon{
+                margin-bottom: 0;
+                &.icon-location,
+                &.icon-paper-plane{
+                    position: static;
+                }
+                &.icon-paper-plane{
+                    transform: rotate(135deg);
+                }
+            }
+        }
+    }
+    #latest-reviews {
+        padding: 50px 0 30px;
+        margin-bottom: 70px;
+        background-position: 250px 0;
+    }
+    #start-here{
+        h2:nth-child(2){
+            margin-bottom: 20px;
+        }
+        .uk-nav.uk-nav-side{
+            margin: 30px 0 50px;
+            li{
+                a{
+                    padding: 10px 15px;
+                    margin: 0;
+                    border-bottom: 1px solid #ccc;
+                }
+                &:first-child{
+                    a{
+                        border-top: 1px solid #ccc;
+                    }
+                }
+            }
+        }
+        #start-tab-content{
+            padding-left: 0;
+        }
+    }
+    #featured-research{
+        padding: 100px 0 150px;
+        h2{
+            margin-bottom: 30px;
+        }
+    }
+    #we-here{
+        margin: 0 0 60px;
+    }
+    #blog-container{
+        article.uk-article{
+            margin: 30px 0;
+        }
+        aside{
+            margin-top: 0;
+        }
+        .uk-panel{
+            &.uk-margin-large-bottom{
+                margin-bottom: 30px !important;
+            }
+        }
+        .tags-cloud{
+            margin-bottom: 30px !important;
+        }
+    }
+    .uk-pagination{
+        li{
+            i.uk-icon-chevron-left,
+            i.uk-icon-chevron-right{
+                width: 40px;
+                height: 40px;
+                line-height: 43px;
+                font-size: 18px;
+                border-radius: 40px;
+            }
+        }
+    }
+    .business{
+        #how-to-choose{
+            margin-top: 0;
+            padding: 200px 0;
+            background-position: center center;
+        }
+        #blog-container{
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+    }
+    .compare{
+        #header{
+            padding-bottom: 100px;
+        }
+        #form-compare{
+            form{
+                margin: 0 0 40px;
+                padding: 30px;
+            }
+        }
+    }
+    .comparison{
+        #comparison-table{
+            margin-bottom: 30px;
+        }
+    }
+    .privacy-block{
+        display: block;
+        text-align: center;
+        .icon-locked{
+            float: none;
+        }
+        p{
+            margin: 0;
+        }
+    }
+    .contact{
+        .shadow{
+            padding: 30px;
+        }
+        #contact-form{
+            form{
+                padding: 0;
+            }
+        }
+    }
+    .quote{
+        #header{
+            padding-bottom: 120px;
+        }
+        .quote-content{
+            #contact-form{
+                padding-left: 0;
+                h3{
+                    text-align: center;
+                    margin-bottom: 40px;
+                }
+                .uk-form-row.uk-form-large.uk-width-1-1{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .review{
+        #pros{
+            .shadow{
+                .uk-tab.uk-tab-left{
+                    margin-bottom: 20px;
+                    text-align: center;
+                    height: auto;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            .icons-list:last-child{
+                &:before{
+                    display: none;
+                }
+                h3{
+                    margin: 20px 0 30px 0;
+                }
+                ul{
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 480px){
+    h2{
+        margin-bottom: 30px;
+    }
+    #header{
+        &.header-small{
+            background-size: auto;
+        }
+        #hero-text{
+            h1{
+                font-size: 40px;
+            }
+        }
+        #top-nav{
+            .uk-navbar-brand{
+                padding: 0;
+            }
+            .uk-logo{
+                img{
+                    width: 70%;
+                }
+            }
+        }
+    }
+    .nav-border{
+        #top-nav.uk-navbar{
+            .uk-navbar-toggle{
+                margin-top: 10px;
+            }
+        }
+    }
+    #you-can{
+        .icons-list{
+            background: none;
+            .uk-width-medium-1-3{
+                display: block;
+                &:nth-child(2){
+                    >div{
+                        &:last-child{
+                            border: none;
+                        }
+                    }
+                }
+                >div{
+                    width: auto;
+                    &:last-child{
+                        border-left: none;
+                    }
+                }
+            }
+        }
+    }
+    #latest-reviews {
+        background-position: 100px 0;
+    }
+    #we-here{
+        .uk-panel.uk-panel-box{
+            padding: 25px 20px;
+            a.uk-button-large{
+                padding: 8px 12px;
+                font-size: 17px;
+            }
+        }
+    }
+    #blog-container{
+        article{
+            .content{
+                padding: 30px 25px;
+            }
+        }
+        a.tag,
+        aside .uk-panel .tag{
+            height: 30px;
+            line-height: 30px;
+            padding: 0 10px;
+            border-radius: 30px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+    .business{
+        #talking-about{
+            #table-view{
+                margin-bottom: 50px;
+                .uk-panel{
+                    .uk-width-large-1-10.uk-width-small-1-2{
+                        border: none;
+                    }
+                }
+            }
+        }
+        #what-is{
+            .uk-panel{
+                margin-top: 20px;
+                padding: 30px;
+            }
+        }
+    }
+    .review{
+        #pros{
+            .shadow{
+                margin-bottom: 40px;
+                padding: 30px;
+                .uk-tab.uk-tab-left{
+                    .the-pros,
+                    .the-cons,
+                    .the-plan{
+                        font-size: 18px;
+                        span{
+                            display: block;
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+            }
+            #overall-rating{
+                margin-top: 30px;
+                .score{
+                    margin: 30px auto 0;
+                    display: block;
+                }
+            }
+            .icons-list{
+                ul{
+                    height: auto;
+                    li{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

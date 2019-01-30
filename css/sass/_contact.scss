@@ -1,0 +1,54 @@
+.contact{
+    #header{
+        padding-bottom: 300px;
+        #hero-text{
+            p{
+                color: #fff;
+                font-size: 20px;
+            }
+        }
+    }
+    #contact-form{
+        margin: -250px 0 150px;
+        form{
+            padding: 0 40px;
+        }
+    }
+}
+#contact-form{
+    font-size: 18px;
+    color: $gray;
+    form{
+        input,
+        textarea,
+        select{
+            border: none;
+            border-bottom: 1px solid #D9D9D9;
+            padding-left: 0;
+            margin-bottom: 30px;
+            color: $darkGray;
+            &:focus{
+                background: none;
+            }
+        }
+    }
+    h3,
+    a,
+    input::placeholder,
+    textarea::placeholder{
+        color: $darkGray;
+    }
+    h3{
+        font-weight: normal;
+        margin-top: 10px;
+        font-size: 26px;
+    }
+    span{
+        &.icon-message{
+            font-size: 50px;
+        }
+        &.icon-internet{
+            font-size: 40px;
+        }
+    }
+}

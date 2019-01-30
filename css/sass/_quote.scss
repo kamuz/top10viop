@@ -1,0 +1,57 @@
+.quote{
+    #header{
+        background: url(../img/bg-06.png) no-repeat;
+        background-position: right bottom;
+        background-size: cover;
+        padding-bottom: 180px;
+        #hero-text{
+            h1{
+                line-height: 60px
+            }
+            p{
+                color: #fff;
+                font-size: 20px;
+            }
+        }
+    }
+    .privacy-block{
+        margin-top: 80px;
+        .icon-locked{
+            line-height: 47px;
+        }
+    }
+    .quote-content{
+        margin-top: 70px;
+        .icons-block{
+            display: grid;
+            grid-template-columns: 50px 1fr;
+            grid-column-gap: 20px;
+            margin-bottom: 40px;
+            padding-right: 30px;
+            .icon-check{
+                font-size: 50px;
+                &:before{
+                    color: #444;
+                }
+            }
+            h3{
+                font-weight: normal;
+                font-size: 30px;
+                line-height: 1.3;
+            }
+            p{
+                color: $gray;
+                font-size: 15px;
+            }
+        }
+        #contact-form{
+            padding-left: 30px;
+            h3{
+                font-weight: normal;
+                font-size: 30px;
+                margin-bottom: 60px;
+                color: #444;
+            }
+        }
+    }
+}

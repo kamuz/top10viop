@@ -1,0 +1,81 @@
+.blog{
+    #header{
+        padding-bottom: 270px;
+    }
+}
+#blog-container{
+    .uk-container{
+        .uk-grid{
+            .uk-width-medium-1-2{
+                margin-bottom: 80px;
+                position: relative;
+                &:nth-child(odd):before{
+                    content: "";
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 498px;
+                    width: 2px;
+                    background-color: #ccc;
+                    margin-left: -1px;
+                }
+                .uk-panel{
+                    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+                    background-color: #fff;
+                    position: relative;
+                    img{
+                        width: 100%;
+                    }
+                    .content{
+                        padding: 0 10px 30px;
+                        h3{
+                        font-weight: bold;
+                        margin-bottom: 50px;
+                        }
+                        .uk-button-primary{
+                            height: 50px;
+                            line-height: 50px;
+                            padding: 0 40px;
+                            font-size: 16px;
+                        }
+                    }
+                }
+                &:nth-child(odd) .uk-panel{
+                    margin-right: 50px;
+                    &:before{
+                        content: "";
+                        width: 10px;
+                        height: 10px;
+                        position: absolute;
+                        left: 443px;
+                        top: 0;
+                        border-radius: 10px;
+                        background-color: #36D876;
+                    }
+                }
+                &:nth-child(even) .uk-panel{
+                    margin-right: 0;
+                    margin-left: 50px;
+                    &:before{
+                        content: "";
+                        width: 10px;
+                        height: 10px;
+                        position: absolute;
+                        right: 444px;
+                        top: 0;
+                        border-radius: 10px;
+                        background-color: #36D876;
+                    }
+                }
+                &:first-child .uk-panel{
+                    &:before{
+                        background-color: #fff;
+                    }
+                }
+            }
+            .uk-width-medium-1-2:nth-child(odd){
+                margin-top: -200px;
+            }
+        }
+    }
+}

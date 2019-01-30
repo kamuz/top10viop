@@ -1,0 +1,15 @@
+.uk-button{
+    cursor: pointer;
+    border: none;
+}
+
+.uk-button-primary{
+    background: #FFC20C;
+    background-image: linear-gradient(#FFC20C, #F2B60A) !important;
+    color: #fff !important;
+}
+
+.uk-button-primary:hover{
+    background: #F2B60A;
+    background-image: linear-gradient(#F2B60A, #E4AA0A) !important;
+}

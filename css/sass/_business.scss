@@ -1,0 +1,145 @@
+.business{
+    #header{
+        padding-bottom: 300px;
+        #hero-text{
+            h1{
+                font-size: 50px;
+            }
+            p{
+                color: #fff;
+                font-size: 20px;
+            }
+        }
+    }
+    #talking-about{
+        background: none;
+        margin-top: -450px;
+        #table-view{
+            padding: 0;
+            margin: 180px 0 100px;
+            .header{
+                background-color: #dddddd;
+                padding: 20px;
+                text-align: center;
+                font-size: 18px;
+                font-weight: bold;
+                .uk-grid{
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .uk-panel{
+                text-align: center;
+                font-size: 16px;
+                padding: 20px 0;
+                margin-bottom: 0;
+                p{
+                    font-size: 15px;
+                    &.features{
+                        text-align: left;
+                    }
+                    &.percent{
+                        font-size: 26px;
+                        text-align: center;
+                    }
+                }
+                img{
+                    &.star-rating{
+                        margin-bottom: 5px;
+                    }
+                }
+                a{
+                    display: block;
+                    text-align: center;
+                    font-weight: bold;
+                    color: $green;
+                    font-size: 15px;
+                }
+                .uk-button{
+                    font-size: 15px;
+                    color: #fff;
+                    margin-bottom: 10px;
+                    font-weight: normal;
+                    display: inline-block;
+                    text-align: right;
+                }
+            }
+        }
+    }
+    #blog-container{
+        margin-top: 60px;
+        .blog-posts{
+            margin-top: 250px;
+        }
+        .uk-container{
+            .uk-grid{
+                .uk-width-4-5{
+                    margin-bottom: 300px;
+                    h2{
+                        margin-bottom: 50px;
+                    }
+                }
+                .uk-width-1-2{
+                    &:first-child .uk-panel{
+                        &:before{
+                            background-color: $green;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #what-is{
+        .uk-panel{
+            margin-top: 70px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+            background-color: #fff;
+            padding: 60px;
+            color: $gray;
+            p{
+                font-size: 20px;
+                margin-bottom: 30px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    #featured-research{
+        background: url(../img/bg-05.png) no-repeat;
+        background-size: cover;
+        padding-bottom: 120px;
+        h2{
+            margin-bottom: 50px;
+        }
+        p{
+            color: #fff;
+        }
+        .uk-panel.uk-panel-box .content .read-more{
+            color: #eb7812;
+        }
+        .uk-pagination{
+            margin: 100px 0 0 !important;
+            li{
+                span,
+                a{
+                    color: #fff;
+                }
+                i.uk-icon-chevron-left,
+                i.uk-icon-chevron-right{
+                    background-color: #fff;
+                    color: $green;
+                }
+            }
+        }
+    }
+}
+#how-to-choose{
+    margin-top: 50px;
+    background: url(../img/bg-04.png) no-repeat;
+    background-size: cover;
+    padding: 220px 0 230px;
+    h2, p{
+        color: #fff;
+    }
+}
